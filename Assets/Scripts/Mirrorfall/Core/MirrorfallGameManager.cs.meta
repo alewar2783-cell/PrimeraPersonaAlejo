@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11f5ea26ce7559c439edc79f55c0f60c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - introUI: {fileID: 5614324673668756439, guid: cd77b2dde1d325e48bb11acb23ae831d, type: 3}
+  - gameplayUI: {fileID: 5575132544411525757, guid: 6d54646fd80cc034084022065d897923, type: 3}
+  - victoryUI: {fileID: 7406980391122242281, guid: a690a7bc47ee9574991b9394a4957a9d, type: 3}
+  - defeatUI: {fileID: 4117338536064582733, guid: 77789406bb0c888469177c7f84bfcad8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
