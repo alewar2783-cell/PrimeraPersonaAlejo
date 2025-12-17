@@ -16,7 +16,7 @@ public class Jugador : MonoBehaviour
         controller = GetComponent<CharacterController>();
         if (controller == null)
         {
-            Debug.LogWarning("⚠️ No se encontró un CharacterController en el jugador. Agrega uno desde el Inspector.");
+            Debug.LogWarning("No se encontró un CharacterController en el jugador. Agrega uno desde el Inspector.");
         }
 
         UpdateUI();
@@ -63,7 +63,7 @@ public class Jugador : MonoBehaviour
     private IEnumerator ActivarInvencibilidad()
     {
         Invencible = true;
-        Debug.Log("Invencibilidad activada!");
+        Debug.Log("Invencibilidad activada");
 
         
         Renderer renderer = GetComponentInChildren<Renderer>();
